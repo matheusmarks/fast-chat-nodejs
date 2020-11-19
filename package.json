@@ -1,0 +1,23 @@
+{
+  "name": "fastchat",
+  "version": "1.0.0",
+  "description": "Fast Chat backend",
+  "main": "server.js",
+  "author": "Matheus Marques",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "nodemon": "^2.0.2"
+  }
+}
